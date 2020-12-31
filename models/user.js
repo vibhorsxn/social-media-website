@@ -1,6 +1,6 @@
 const mongoos = require('mongoose');
 
-const userSchema = new Mongoose.Schema({
+const userSchema = new mongoose.Schema({
     email: {
     type:String,
     required: true,

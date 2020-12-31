@@ -11,4 +11,5 @@ const usersConroller = require('../controllers/users_contollers');
  router.get('/sign-up', usersConroller.signUp); 
  router.get('/sign-in', usersConroller.signIn); 
 
+ router.post('/create',usersConroller.create);
 module.exports= router;
