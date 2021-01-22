@@ -1,0 +1,18 @@
+footer {
+  background-color: rgba(93, 78, 78, 0.966);
+  display: flex;
+  width: auto;
+  font-size: 20px;
+}
+
+footer #link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer a {
+  font-family: cursive;
+  font-size: 25px;
+  color: indigo;
+  justify-content: flex-end;
+}
