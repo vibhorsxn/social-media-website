@@ -7,8 +7,9 @@ console.log("Index Router Loaded...");
 
 router.get('/',homeController.home); 
 router.use('/users', require('./users'));
+router.use('/posts', require('./posts'));
 
-// for any other routes acces from here
+// for any other routes access from here
 
 // router.use('/posts', require('./post'));
 
